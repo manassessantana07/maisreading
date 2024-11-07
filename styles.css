@@ -1,0 +1,27 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/tópicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #ebebeb;
+    --branco: #FFFFFF;
+    --militar: #81b802;
+    --verde: linear-gradient(97.54deg, #00940cd5 35.49%, #8d0000 165.37%);
+    --fonte-principal: "Raleway";
+    --vermelho-escuro: #4e021b;
+    --militar-escuro: #3d5700;
+    --cinza: #a3a3a3;
+    --preto: #000000;
+    --cinza-claro: #575757;
+    --fonte-secundario: "Quicksand";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

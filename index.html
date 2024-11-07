@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>+Reading</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu_titulo">Categorias</li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Mais vendidos</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Mais favoritados</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Catálogo Cristão</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Catálogo Infantil</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Catálogo Internacional</a>
+        </li>
+      </ul>
+      <img src="img/+reading.png" alt="Logomarca do +Reading" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Read</b>ing</h1>
+    </div>
+    <ul class="opções">
+      <input type="checkbox" id="opções-menu" class="opções__botão">
+      <label for="opções-menu" class="opções__rotulo">
+        <li class="opções__item">Menu</li>
+      </label>
+
+      <ul class="lista-menu">
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Mais vendidos</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Mais favoritados</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Catálogo Cristão</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Catálogo Infantil</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Catálogo Internacional</a>
+        </li>
+      </ul>
+
+      <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+    </ul>
+    <div class="container">
+      <a href="#">
+        <img src="img/favoritos.png" alt="Favoritos" class="container__imagem container__imagem-transparente">
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/catálogo.png" alt="Catálogo" class="container__imagem">
+        <p class="container__texto">Catálogo</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/perfil.png" alt="Perfil do usuário" class="container__imagem">
+        <p class="container__texto">Meu Perfil</p>
+      </a>
+    </div>
+  </header>
+  <section class="banner">
+    <h2 class="banner__titulo"> Mais Leitura e bem-estar!</h2>
+    <p class="banner__texto">Explore o nosso catálogo de livros e encontre o que deseja!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Procure seu livro favorito!">
+  </section>
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Livraria Diversificada</h2>
+    <!-- Slider main container -->
+    <div class="carrossel__container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="img/O Peregrino.png"
+            alt="Peregrino o livro mais vendido entre os cristãos!">
+          </div>
+          <div class="swiper-slide"><img src="img/Ego transformado.png"
+              alt="Retire o ego do seu coração e deixe Deus entrar!">
+            </div>
+          <div class="swiper-slide"><img src="img/Divertidamente 2.png"
+              alt="Versão livro do filme mais vendido da disney!">
+            </div>
+          <div class="swiper-slide"><img src="img/Malala.png"
+              alt="Malala só queria ir na escola e agora virou história no mundo todo!">
+            </div>
+          <div class="swiper-slide"><img src="img/Dom Quixote.png"
+              alt="Dom Quixote um dos livros mais vendidos internacionalmente!">
+            </div>
+          <div class="swiper-slide"><img src="img/Ela a feiticeira.png" alt="Ela a feiticeira, livro bastante vendido!">
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+  <div class="card">
+    <div class="card__descrição">
+      <div class="descrição">
+        <h3 class="descrição__titulo">Livro mais vendido no mundo!</h3>
+        <h2 class="descrição__titulo__livro">Conheça a Bíblia Sagrada</h2>
+        <p class="descrição__texto">A Bíblia protestante possui 66 livros, recomendável não apenas para os cristãos, mas
+          sim, para todo aquele que almeja viver com Cristo na glória!</p>
+      </div>
+      <img src="img/bíblia.png" class="descrição__imagem">
+    </div>
+    <div class="card__botões">
+      <ul class="botões">
+        <li class="botões__item">
+        <a href="#">
+          <img src="img/favoritos.png" alt="Favoritar livro"></li></a>
+      </ul>
+      <a href="https://pt.wikipedia.org/wiki/B%C3%ADblia" class="botões__ancora">Conheça o livro</a>
+    </div>
+  </div>
+  </div>
+  </section>
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Livraria Internacional</h2>
+    <!-- Slider main container -->
+    <div class="carrossel__container">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/100tips.png" alt="Você precisa ler estas 100 ideias!"></div>
+        <div class="swiper-slide"><img src="img/alice.png" alt="Alice no País das Maravilhas Versão inglês"></div>
+        <div class="swiper-slide"><img src="img/anna.png" alt="Anna e seu namorado da França!"></div>
+        <div class="swiper-slide"><img src="img/theraven.png" alt="A Ravena? Um pássaro?"></div>
+        <div class="swiper-slide"><img src="img/selection.png" alt="A Seleção"></div>
+        <div class="swiper-slide"><img src="img/opposter.png" alt="Atrações opostas..."></div>
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+  <div class="card">
+    <div class="card__descrição">
+      <div class="descrição">
+        <h3 class="descrição__titulo">Que tal conhecer o...</h3>
+        <h2 class="descrição__titulo__livro">Duolingo!</h2>
+        <p class="descrição__texto">Duolingo é um aplicativo na qual você pode conhecer novos idiomas, como Francês,
+          Alemão, Inglês e dentre muitos outros! Baixe já e aproveite!</p>
+      </div>
+      <img src="img/duolingo.png" class="descrição__imagem">
+    </div>
+    <div class="card__botões">
+      <ul class="botões">
+        <a href="https://play.google.com/store/apps/details?id=com.duolingo&hl=pt_BR"><img src="img/playstore.png"
+            alt="Play Store" class="container__imagem"></a>
+        <a href="https://apps.apple.com/br/app/duolingo-aprenda-idiomas/id570060128"><img src="img/applestore.png"
+            alt="Apple Store" class="container__imagem"></a>
+      </ul>
+    </div>
+  </div>
+  </div>
+  </section>
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Livraria Infantil</h2>
+    <!-- Slider main container -->
+    <div class="carrossel__container">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/ositio.png"></div>
+        <div class="swiper-slide"><img src="img/opedido.png"></div>
+        <div class="swiper-slide"><img src="img/espere.png"></div>
+        <div class="swiper-slide"><img src="img/omenino.png"></div>
+        <div class="swiper-slide"><img src="img/ondeesta.png"></div>
+        <div class="swiper-slide"><img src="img/quandoesta.png"></div>
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+  <div class="card">
+    <div class="card__descrição">
+      <div class="descrição">
+        <h3 class="descrição__titulo">Estimule a criança a ler um livro!</h3>
+        <h2 class="descrição__titulo__livro">Saiba sobre!</h2>
+        <p class="descrição__texto">A leitura é uma prática que traz inúmeros benefícios aos leitores e quando
+          estimulada desde a infância os impactos positivos podem ser muito maiores.</p>
+      </div>
+      <img src="img/menina.png" class="descrição__imagem">
+    </div>
+    <div class="card__botões">
+      <ul class="botões">
+      </ul>
+      <a href="https://www.fadc.org.br/noticias/a-importancia-da-leitura-para-o-desenvolvimento-das-criancas"
+        class="botões__ancora">Saiba mais</a>
+    </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">OS DEZ TÓPICOS EM ALTA</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Bíblia Sagrada</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Divertidamente</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">+Reading</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Livros</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">O Peregrino</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Diário</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Cachorro</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Gatos</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Milionário</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Corpo Humano</a>
+      </li>
+    </ul>
+  </section>
+  
+  <section class="contato">
+    <div class="contato__descrição"></div>
+    <h2 class="contato__titulo">E Para saber mais?</h2>
+    <p class="contato__texto">Quero saber todas as informações sobre lançamentos de livros? Cadastre seu email no
+      +Reading para ter este acesso!</p>
+    </div>
+    <input type="email" placeholder="Adicione seu email!" class="contato__email">
+  </section>
+
+  <hr />
+  <footer class="rodapé">
+    <ul class="rodapé__titulo">+Reading | Mais Leitura</ul>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Educação</li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfckids.png" alt="Logo da RFC Kids">
+        <a href="#" class="lista-rodape__link">RFC Kids</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfceducation.png" alt="Logo da RFC Education">
+        <a href="#" class="lista-rodape__link">RFC Education</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Plataformas</li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcnatureza.png" alt="Logo da RFC Natureza">
+        <a href="#" class="lista-rodape__link">RFC Natureza</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcesportes.png" alt="Logo da RFC Esportes">
+        <a href="#" class="lista-rodape__link">RFC Esportes</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcjornalismo.png" alt="Logo da RFC Jornalismo">
+        <a href="#" class="lista-rodape__link">RFC Jornalismo</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcmadrugada.png" alt="Logo da RFC Madrugada">
+        <a href="#" class="lista-rodape__link">RFC Madrugada</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcmulher.png" alt="Logo da RFC Mulher">
+        <a href="#" class="lista-rodape__link">RFC Mulher</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcnegro.png" alt="Logo da RFC Negro">
+        <a href="#" class="lista-rodape__link">RFC Consciência Negra</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcfilmes.png" alt="Logo da RFC Filmes">
+        <a href="#" class="lista-rodape__link">RFC Filmes</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Países</li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfceua.png" alt="Logo da RFC Eua">
+        <a href="#" class="lista-rodape__link">RFC Estados Unidos</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcrussia.png" alt="Logo da RFC Rússia">
+        <a href="#" class="lista-rodape__link">RFC Rússia</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcargentina.png" alt="Logo da RFC Argentina">
+        <a href="#" class="lista-rodape__link">RFC Argentina</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcjapao.png" alt="Logo da RFC Japão">
+        <a href="#" class="lista-rodape__link">RFC Japão</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcirlanda.png" alt="Logo da RFC Irlanda">
+        <a href="#" class="lista-rodape__link">RFC Irlanda</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcespanha.png" alt="Logo da RFC Espanha">
+        <a href="#" class="lista-rodape__link">RFC Espanha</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/rfcportugal.png" alt="Logo da RFC Portugal">
+        <a href="#" class="lista-rodape__link">RFC Portugal</a>
+      </li>
+    </ul>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>
